@@ -28,7 +28,7 @@ Academic/technical briefing style with clean 2D or isometric technical illustrat
 
 - Isometric 3D or flat 2D technical diagrams
 - Explanatory text boxes with labeled content
-- Bilingual callout labels (English + Chinese)
+- Bilingual callout labels (English + Traditional Chinese)
 - Faded thematic background patterns
 - Clean black outlines on elements
 - Split or triptych layouts
