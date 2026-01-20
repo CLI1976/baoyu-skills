@@ -32,24 +32,24 @@ Educational manga where every concept becomes a visual metaphor or action. NO ta
 
 Every technical concept MUST be visualized as:
 
-| Concept Type | Visualization Approach |
-|-------------|----------------------|
-| Algorithm | Gadget/machine that demonstrates the process |
-| Data structure | Physical space characters can enter/explore |
-| Mathematical formula | Transformation visible in environment |
-| Abstract process | Tangible flow of particles/objects |
+| Concept Type         | Visualization Approach                       |
+| -------------------- | -------------------------------------------- |
+| Algorithm            | Gadget/machine that demonstrates the process |
+| Data structure       | Physical space characters can enter/explore  |
+| Mathematical formula | Transformation visible in environment        |
+| Abstract process     | Tangible flow of particles/objects           |
 
 **Wrong approach**: Character points at blackboard explaining
 **Right approach**: Character uses "Concept Visualizer" gadget, steps into metaphorical space
 
 ### Visual Metaphor Examples
 
-| Concept | Wrong (Talking Head) | Right (Visual Metaphor) |
-|---------|---------------------|------------------------|
+| Concept             | Wrong (Talking Head)                      | Right (Visual Metaphor)                                          |
+| ------------------- | ----------------------------------------- | ---------------------------------------------------------------- |
 | Attention mechanism | Character points at formula on blackboard | "Attention Flashlight" gadget illuminates key words in dark room |
-| Gradient descent | "The algorithm minimizes loss" | Character rides ball rolling down mountain valley |
-| Neural network | Diagram with arrows | Living network of glowing creatures passing messages |
-| Overfitting | "The model memorized the data" | Character wearing clothes that fit only one specific pose |
+| Gradient descent    | "The algorithm minimizes loss"            | Character rides ball rolling down mountain valley                |
+| Neural network      | Diagram with arrows                       | Living network of glowing creatures passing messages             |
+| Overfitting         | "The model memorized the data"            | Character wearing clothes that fit only one specific pose        |
 
 ## Panel Layout for Ohmsha
 
@@ -96,11 +96,11 @@ Every technical concept MUST be visualized as:
 
 Define characters before generating:
 
-| Role | Default | Traits |
-|------|---------|--------|
-| Student (Role A) | 大雄 | Confused, asks basic but crucial questions, represents reader |
-| Mentor (Role B) | 哆啦A梦 | Knowledgeable, patient, uses gadgets as technical metaphors |
-| Antagonist (Role C, optional) | 胖虎 | Represents misunderstanding, or "noise" in the data |
+| Role                          | Default | Traits                                                        |
+| ----------------------------- | ------- | ------------------------------------------------------------- |
+| Student (Role A)              | 大雄      | Confused, asks basic but crucial questions, represents reader |
+| Mentor (Role B)               | 哆啦A夢    | Knowledgeable, patient, uses gadgets as technical metaphors   |
+| Antagonist (Role C, optional) | 胖虎      | Represents misunderstanding, or "noise" in the data           |
 
 ## Best For
 
