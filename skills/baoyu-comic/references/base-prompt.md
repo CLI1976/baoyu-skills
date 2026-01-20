@@ -51,7 +51,7 @@ Create a knowledge biography comic page following these guidelines:
 - Hand-drawn lettering style throughout
 - Bold for emphasis and key terms
 - Consistent letter sizing
-- Chinese text: use full-width punctuation ""，。！
+- Traditional Chinese text: use full-width punctuation ""，。！
 - Clear hierarchy: titles > dialogue > captions
 
 ## Scientific/Concept Visualization
@@ -90,8 +90,8 @@ When depicting narrator characters addressing the reader:
 
 ## Language
 
-- All text in Chinese (中文) unless source material is in another language
-- Use Chinese full-width punctuation: ""，。！
+- All text in Traditional Chinese (中文) unless source material is in another language
+- Use Traditional Chinese full-width punctuation: ""，。！
 
 ---
 
