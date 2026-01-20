@@ -1,6 +1,6 @@
 ---
 name: baoyu-comic
-description: Knowledge comic creator supporting multiple styles (Logicomix/Ligne Claire, Ohmsha manga guide). Creates original educational comics with detailed panel layouts and sequential image generation. Use when user asks to create "知识漫画", "教育漫画", "biography comic", "tutorial comic", or "Logicomix-style comic".
+description: Knowledge comic creator supporting multiple styles (Logicomix/Ligne Claire, Ohmsha manga guide). Creates original educational comics with detailed panel layouts and sequential image generation. Use when user asks to create "知識漫畫", "教育漫畫", "biography comic", "tutorial comic", or "Logicomix-style comic".
 ---
 
 # Knowledge Comic Creator
@@ -18,7 +18,7 @@ Create original knowledge comics with multiple visual styles.
 
 | Option | Values |
 |--------|--------|
-| `--style` | classic (default), dramatic, warm, sepia, vibrant, ohmsha, realistic, wuxia, shoujo, or custom description |
+| `--style` | classic (default), dramatic, warm, sepia, vibrant, ohmsha, realistic, wuxia, or custom description |
 | `--layout` | standard (default), cinematic, dense, splash, mixed, webtoon |
 | `--aspect` | 3:4 (default, portrait), 4:3 (landscape), 16:9 (widescreen) |
 | `--lang` | auto (default), zh, en, ja, etc. |
@@ -38,7 +38,6 @@ Style × Layout × Aspect can be freely combined. Custom styles can be described
 | Conflict, breakthrough | dramatic | splash |
 | Wine, food, business, lifestyle, professional | realistic | cinematic |
 | Martial arts, wuxia, xianxia, Chinese historical | wuxia | splash |
-| Romance, love, school life, friendship, emotional | shoujo | standard |
 | Biography, balanced | classic | mixed |
 
 ## Script Directory
@@ -224,7 +223,7 @@ Create three distinct variants, each combining a narrative approach with a recom
 | Aspect ratio | Only if user might prefer non-default (e.g., landscape content) |
 
 **Language handling**:
-- If source language = user language: Just inform user (e.g., "Comic will be in Chinese")
+- If source language = user language: Just inform user (e.g., "Comic will be in Traditional Chinese")
 - If different: Ask which language to use
 
 **All storyboards and prompts are generated in the user's selected/preferred language.**
@@ -249,7 +248,7 @@ Question 2 (Style): Which visual style?
 - Custom description
 
 Question 3 (Language) - only if mismatch:
-- Chinese (source material language)
+- Traditional Chinese (zh-tw) (source material language)
 - English (your preference)
 
 Question 4 (Aspect) - only if relevant:
@@ -380,9 +379,9 @@ Examples:
 Additional requirements for educational manga:
 - **Default: Use Doraemon characters directly** - No need to create new characters
   - 大雄 (Nobita): Student role, curious learner
-  - 哆啦A梦 (Doraemon): Mentor role, explains concepts with gadgets
+  - 哆啦A夢 (Doraemon): Mentor role, explains concepts with gadgets
   - 胖虎 (Gian): Antagonist/challenge role, represents obstacles or misconceptions
-  - 静香 (Shizuka): Supporting role, asks clarifying questions
+  - 靜香 (Shizuka): Supporting role, asks clarifying questions
 - Custom characters only if explicitly requested: `--characters "Student:小明,Mentor:教授"`
 - Must use visual metaphors (gadgets, action scenes) - NO talking heads
 - Page titles: narrative style, not "Page X: Topic"
